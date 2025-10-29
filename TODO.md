@@ -1,0 +1,5 @@
+- [x] Initialize filteredStudents with students after fetch in fetchStudents function
+- [x] Change Table dataSource to filteredStudents
+- [x] Add state for sortField and sortOrder
+- [x] Add Select dropdown for sorting options
+- [x] Implement sorting logic in useEffect
