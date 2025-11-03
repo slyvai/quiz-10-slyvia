@@ -50,7 +50,7 @@ export default function HomePage() {
     delete dataToSend.class;
 
     try {
-      const res = await axios.post(API_URL, dataToSend);
+      const res = await axios.post("/api/students/crud", dataToSend);
       const newStudent = res.data?.body?.data || dataToSend; 
        messageApi.open({
         type: 'success',
